@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/editor_layout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/battry_layout"
+        android:layout_width="wrap_content"
+        android:text="@string/notefragment"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/close"
+        android:padding="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/battry_layout"
+        android:layout_width="wrap_content"
+        android:text="@string/x"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editor_edit_text"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/battry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

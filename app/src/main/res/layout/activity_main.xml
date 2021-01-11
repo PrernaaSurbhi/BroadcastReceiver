@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/battery_fragment"
+        android:background="@color/teal_700"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
 
-</FrameLayout>
+    <FrameLayout
+        android:id="@+id/note_container"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/purple_200" />
+
+</LinearLayout>
+

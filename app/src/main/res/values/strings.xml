@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BroadcastRecv</string>
+    <string name="battery_fragment">Battery Fragment</string>
+    <string name="notefragment">NoteFragment</string>
+    <string name="button">Button</string>
+    <string name="x">X</string>
 </resources>
